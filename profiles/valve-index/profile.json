@@ -197,6 +197,27 @@
               "maxNodeName": "a_button_pressed_max"
             }
           }
+        },
+        "b-button": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 5
+          },
+          "rootNodeName": "b_button",
+          "visualResponses": {
+            "b_button_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "b_button_pressed_value",
+              "minNodeName": "b_button_pressed_min",
+              "maxNodeName": "b_button_pressed_max"
+            }
+          }
         }
       },
       "gamepadMapping": "xr-standard",
@@ -394,6 +415,27 @@
               "valueNodeName": "a_button_pressed_value",
               "minNodeName": "a_button_pressed_min",
               "maxNodeName": "a_button_pressed_max"
+            }
+          }
+        },
+        "b-button": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 5
+          },
+          "rootNodeName": "b_button",
+          "visualResponses": {
+            "b_button_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "b_button_pressed_value",
+              "minNodeName": "b_button_pressed_min",
+              "maxNodeName": "b_button_pressed_max"
             }
           }
         }
