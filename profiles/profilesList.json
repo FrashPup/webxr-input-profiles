@@ -68,5 +68,11 @@
   },
   "valve-index": {
     "path": "valve-index/profile.json"
+  },
+  "valve-knuckles-left": {
+    "path": "valve-index/profile.json"
+  },
+  "valve-knuckles-right": {
+    "path": "valve-index/profile.json"
   }
 }
