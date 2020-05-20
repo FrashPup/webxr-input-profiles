@@ -80,10 +80,10 @@
   
   
   "oculus-oculus-quest-(left-controller)": {
-    "path": "oculus-touch/profile.json"
+    "path": "oculus-touch-v2/profile.json"
   },
   "oculus-oculus-quest-(right-controller)": {
-    "path": "oculus-touch/profile.json"
+    "path": "oculus-touch-v2/profile.json"
   }
   
   
