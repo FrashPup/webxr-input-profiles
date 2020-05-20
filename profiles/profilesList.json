@@ -82,11 +82,11 @@
   // oculus go controllers
 
   "oculus-oculus-quest-(left-controller)": {
-    "path": "oculus-go/profile.json"
+    "path": "oculus-touch/profile.json"
   },
   "oculus-oculus-quest-(right-controller)": {
-    "path": "oculus-go/profile.json"
-  },
+    "path": "oculus-touch/profile.json"
+  }
   
   
 }
