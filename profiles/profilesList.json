@@ -70,7 +70,6 @@
     "path": "valve-index/profile.json"
   },
   
-  // valve index controllers
   
   "valve-knuckles-left": {
     "path": "valve-index/profile.json"
@@ -79,8 +78,7 @@
     "path": "valve-index/profile.json"
   },
   
-  // oculus go controllers
-
+  
   "oculus-oculus-quest-(left-controller)": {
     "path": "oculus-touch/profile.json"
   },
