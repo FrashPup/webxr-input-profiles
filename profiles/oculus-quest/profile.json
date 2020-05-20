@@ -1,7 +1,8 @@
 {
-  "profileId": "valve-index",
+  "profileId": "oculus-quest",
   "fallbackProfileIds": [
-    "generic-trigger-squeeze-touchpad-thumbstick"
+    "oculus-touch",
+    "generic-trigger-squeeze-thumbstick"
   ],
   "layouts": {
     "left": {
@@ -49,87 +50,6 @@
             }
           }
         },
-        "xr-standard-touchpad": {
-          "type": "touchpad",
-          "gamepadIndices": {
-            "button": 2,
-            "xAxis": 0,
-            "yAxis": 1
-          },
-          "rootNodeName": "xr_standard_touchpad",
-          "visualResponses": {
-            "xr_standard_touchpad_pressed": {
-              "componentProperty": "button",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_pressed_value",
-              "minNodeName": "xr_standard_touchpad_pressed_min",
-              "maxNodeName": "xr_standard_touchpad_pressed_max"
-            },
-            "xr_standard_touchpad_xaxis_pressed": {
-              "componentProperty": "xAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_xaxis_pressed_value",
-              "minNodeName": "xr_standard_touchpad_xaxis_pressed_min",
-              "maxNodeName": "xr_standard_touchpad_xaxis_pressed_max"
-            },
-            "xr_standard_touchpad_yaxis_pressed": {
-              "componentProperty": "yAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_yaxis_pressed_value",
-              "minNodeName": "xr_standard_touchpad_yaxis_pressed_min",
-              "maxNodeName": "xr_standard_touchpad_yaxis_pressed_max"
-            },
-            "xr_standard_touchpad_xaxis_touched": {
-              "componentProperty": "xAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_xaxis_touched_value",
-              "minNodeName": "xr_standard_touchpad_xaxis_touched_min",
-              "maxNodeName": "xr_standard_touchpad_xaxis_touched_max"
-            },
-            "xr_standard_touchpad_yaxis_touched": {
-              "componentProperty": "yAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_yaxis_touched_value",
-              "minNodeName": "xr_standard_touchpad_yaxis_touched_min",
-              "maxNodeName": "xr_standard_touchpad_yaxis_touched_max"
-            },
-            "xr_standard_touchpad_axes_touched": {
-              "componentProperty": "state",
-              "states": [
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "visibility",
-              "valueNodeName": "xr_standard_touchpad_axes_touched_value"
-            }
-          },
-          "touchPointNodeName": "xr_standard_touchpad_axes_touched_value"
-        },
         "xr-standard-thumbstick": {
           "type": "thumbstick",
           "gamepadIndices": {
@@ -177,14 +97,14 @@
             }
           }
         },
-        "a-button": {
+        "x-button": {
           "type": "button",
           "gamepadIndices": {
             "button": 4
           },
-          "rootNodeName": "a_button",
+          "rootNodeName": "x_button",
           "visualResponses": {
-            "a_button_pressed": {
+            "x_button_pressed": {
               "componentProperty": "button",
               "states": [
                 "default",
@@ -192,15 +112,57 @@
                 "pressed"
               ],
               "valueNodeProperty": "transform",
-              "valueNodeName": "a_button_pressed_value",
-              "minNodeName": "a_button_pressed_min",
-              "maxNodeName": "a_button_pressed_max"
+              "valueNodeName": "x_button_pressed_value",
+              "minNodeName": "x_button_pressed_min",
+              "maxNodeName": "x_button_pressed_max"
+            }
+          }
+        },
+        "y-button": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 5
+          },
+          "rootNodeName": "y_button",
+          "visualResponses": {
+            "y_button_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "y_button_pressed_value",
+              "minNodeName": "y_button_pressed_min",
+              "maxNodeName": "y_button_pressed_max"
+            }
+          }
+        },
+        "thumbrest": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 6
+          },
+          "rootNodeName": "thumbrest",
+          "visualResponses": {
+            "thumbrest_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "thumbrest_pressed_value",
+              "minNodeName": "thumbrest_pressed_min",
+              "maxNodeName": "thumbrest_pressed_max"
             }
           }
         }
       },
       "gamepadMapping": "xr-standard",
-      "rootNodeName": "valve-index-left",
+      "rootNodeName": "oculus-quest-left",
       "assetPath": "left.glb"
     },
     "right": {
@@ -248,87 +210,6 @@
             }
           }
         },
-        "xr-standard-touchpad": {
-          "type": "touchpad",
-          "gamepadIndices": {
-            "button": 2,
-            "xAxis": 0,
-            "yAxis": 1
-          },
-          "rootNodeName": "xr_standard_touchpad",
-          "visualResponses": {
-            "xr_standard_touchpad_pressed": {
-              "componentProperty": "button",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_pressed_value",
-              "minNodeName": "xr_standard_touchpad_pressed_min",
-              "maxNodeName": "xr_standard_touchpad_pressed_max"
-            },
-            "xr_standard_touchpad_xaxis_pressed": {
-              "componentProperty": "xAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_xaxis_pressed_value",
-              "minNodeName": "xr_standard_touchpad_xaxis_pressed_min",
-              "maxNodeName": "xr_standard_touchpad_xaxis_pressed_max"
-            },
-            "xr_standard_touchpad_yaxis_pressed": {
-              "componentProperty": "yAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_yaxis_pressed_value",
-              "minNodeName": "xr_standard_touchpad_yaxis_pressed_min",
-              "maxNodeName": "xr_standard_touchpad_yaxis_pressed_max"
-            },
-            "xr_standard_touchpad_xaxis_touched": {
-              "componentProperty": "xAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_xaxis_touched_value",
-              "minNodeName": "xr_standard_touchpad_xaxis_touched_min",
-              "maxNodeName": "xr_standard_touchpad_xaxis_touched_max"
-            },
-            "xr_standard_touchpad_yaxis_touched": {
-              "componentProperty": "yAxis",
-              "states": [
-                "default",
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "transform",
-              "valueNodeName": "xr_standard_touchpad_yaxis_touched_value",
-              "minNodeName": "xr_standard_touchpad_yaxis_touched_min",
-              "maxNodeName": "xr_standard_touchpad_yaxis_touched_max"
-            },
-            "xr_standard_touchpad_axes_touched": {
-              "componentProperty": "state",
-              "states": [
-                "touched",
-                "pressed"
-              ],
-              "valueNodeProperty": "visibility",
-              "valueNodeName": "xr_standard_touchpad_axes_touched_value"
-            }
-          },
-          "touchPointNodeName": "xr_standard_touchpad_axes_touched_value"
-        },
         "xr-standard-thumbstick": {
           "type": "thumbstick",
           "gamepadIndices": {
@@ -396,10 +277,52 @@
               "maxNodeName": "a_button_pressed_max"
             }
           }
+        },
+        "b-button": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 5
+          },
+          "rootNodeName": "b_button",
+          "visualResponses": {
+            "b_button_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "b_button_pressed_value",
+              "minNodeName": "b_button_pressed_min",
+              "maxNodeName": "b_button_pressed_max"
+            }
+          }
+        },
+        "thumbrest": {
+          "type": "button",
+          "gamepadIndices": {
+            "button": 6
+          },
+          "rootNodeName": "thumbrest",
+          "visualResponses": {
+            "thumbrest_pressed": {
+              "componentProperty": "button",
+              "states": [
+                "default",
+                "touched",
+                "pressed"
+              ],
+              "valueNodeProperty": "transform",
+              "valueNodeName": "thumbrest_pressed_value",
+              "minNodeName": "thumbrest_pressed_min",
+              "maxNodeName": "thumbrest_pressed_max"
+            }
+          }
         }
       },
       "gamepadMapping": "xr-standard",
-      "rootNodeName": "valve-index-right",
+      "rootNodeName": "oculus-quest-right",
       "assetPath": "right.glb"
     }
   }
